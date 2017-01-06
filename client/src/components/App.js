@@ -18,11 +18,9 @@ class App extends Component {
     return (
 
       <Router history={browserHistory}>
-
           <Route component={Site}>
           <Route path="/" component={Home} />
           <Route onEnter={requireAuth}>
-
             {/* Place all authenticated routes here */}
             <Route path="/shop" component={Shop}/>
             <Route path="/profile/edit" component={EditProfile} />
