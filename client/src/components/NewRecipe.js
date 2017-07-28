@@ -80,12 +80,17 @@ class NewRecipe extends Component {
       console.log(posted)
     });
 
+    swal(
+      'Recipe Saved!',
+      'Omnomnom'
+    )
+
     this.setState({
-      recipeName: null,
-      ingredients: null,
-      prepTime: null,
-      cookTime: null,
-      instructions: null,
+      recipeName: '',
+      ingredients: '',
+      prepTime: '',
+      cookTime: '',
+      instructions: '',
       ingredientArr: [],
       instructionArr: []
     });
