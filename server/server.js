@@ -14,7 +14,7 @@ var app = express();
 app.set("port", process.env.PORT || 3001);
 
 // logging, security, parsing data, allowing cors for dev and prod
-app.use(morgan());
+app.use(morgan("combined"));
 app.use(helmet());
 app.use(
   cors({
