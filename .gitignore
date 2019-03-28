@@ -4,6 +4,7 @@
 server/node_modules/
 lets-learn-vagrant
 .idea/
+.env
 client/.storybook/
 client/stories/
 node_modules/
