@@ -81,7 +81,7 @@ class Site extends Component {
           <Route path="/meals" render={passCmptToRequireAuth(MealPlanner)} />
           <Route path="/eat" render={passCmptToRequireAuth(Cook)} />
           <Route path="/delivery" render={passCmptToRequireAuth(Delivery)} />
-          <Route path="/aboutus" render={passCmptToRequireAuth(AboutUs)} />
+          <Route path="/aboutus" component={AboutUs} />
         </div>
       </div>
     );
