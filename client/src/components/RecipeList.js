@@ -8,7 +8,7 @@ const RecipeList = ({
   displayInstructions
 }) => {
   return (
-    <div>
+    <div class="panelWrapper">
       <Panel className="recipeBookPanel">
         <div className="itemHeader item recipeHeader">
           <p className="recipeTitle">{recipe.name}</p>
